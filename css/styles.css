@@ -989,6 +989,7 @@ button {
   .footer-container-subscribe {
     margin-left: revert;
   }
+
   .footer-container-subscribe-form {
     display: flex;
     flex-direction: row;
