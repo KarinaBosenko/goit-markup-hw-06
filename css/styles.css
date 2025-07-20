@@ -966,10 +966,11 @@ button {
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 496px;
     gap: 72px 24px;
     align-items: flex-start;
-    justify-content: flex-start;
-    margin-left: 108px;
+    justify-content: space-between;
+    padding: 0;
   }
 
   .footer-container-logo {
@@ -1002,15 +1003,18 @@ button {
 
 @media screen and (min-width: 1158px) {
   .footer-container {
+    max-width: 100%;
+    justify-content: center;
+    margin: 0;
     gap: 0;
-  }
-
-  .footer-container-subscribe {
-    margin-left: auto;
   }
 
   .footer-container-logo {
     margin-right: 120px;
+  }
+
+  .footer-container-links {
+    margin-right: 80px;
   }
 
   .footer-container-subscribe-form-email {
